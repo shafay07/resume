@@ -24,5 +24,15 @@
   $('body').scrollspy({
     target: '#sideNav'
   });
+  $( ".hoverImage" ).hover(
+    function() {
+      $(this).addClass('shadow-lg').css('cursor', 'pointer'); 
+    }, function() {
+      $(this).removeClass('shadow-lg');
+    }
+  );
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
 
 })(jQuery); // End of use strict
