@@ -1,4 +1,3 @@
-## Preview
 
 ![Resume Preview](https://github.com/shafay07/resume/blob/master/img/resume.jpg)
 
